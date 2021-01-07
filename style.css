@@ -167,3 +167,11 @@ h4{
     padding: 10px 20px;
     border-radius: 5px;
 }
+.starting{
+    width:10%;
+    float:right;
+}
+.starting-button{
+    text-decoration: none;
+    color:black;
+}
