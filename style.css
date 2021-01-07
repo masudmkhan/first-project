@@ -16,7 +16,7 @@ p{
 .button{
     color:white;
     font-size: 20px;
-    background-color: tomato;
+    background-image: linear-gradient(45deg, tomato, red);
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -44,16 +44,24 @@ h4{
 }
 .section-1{
     height:550px;
+    background-image: url(Shapes/top-banner.png);
+    background-repeat: no-repeat;
 }
 .section-2{
     height:550px;
+    background-image: url(Shapes/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 .section-3{
     background-color: rgb(177, 177, 177);
     height: 650px;
 }
 .section-4{
-    height: 550px;
+    background-image: url(Shapes/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:right;
+    box-shadow: 0px 0px 20px gray;
 }
 .image img{
     width: 100%;
@@ -67,6 +75,8 @@ h4{
     background-color: white;
     padding-left: 2%;
     padding-top: 8px;
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 10px;
 }
 #tour{
     width: 24%;
@@ -78,6 +88,8 @@ h4{
     background-color: white;
     padding-left: 2%;
     padding-right: 2%;
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 10px;
 }
 #song{
     width: 24%;
@@ -88,24 +100,50 @@ h4{
     background-color: white;
     padding-top: 8px;
     padding-left: 2%;
-}
-.last{
-    background-image: url(Shapes/Group_33094_1.png);
-    background-size: 70%;
-    background-repeat: no-repeat;
-    width:70%;
-    margin-left: 15%;
-    margin-right: 15%;
-    background-position: center;
-    padding-bottom: 100px;
-    padding-top:50px ;
-}
-.work-inquiry{
-    color:white;
-    font-size: 40px;
-    margin-left: 25%;
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 10px;
 }
 .images{
     padding-top: 30px;
     width:100%
+}
+.work-inquiry{
+    color:white;
+    padding-left: 80px;
+    padding-top: 70px;
+    font-size:xx-large;
+    font-weight:900;
+    float:left;
+}
+.last{
+    margin-top: 80px;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-image: url(Shapes/Group_33094_1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 250px;
+}
+.chat-button{
+   text-align:right;
+   float:left;
+   margin-top: 96px;
+   margin-left: 400px;
+}
+.about-div{
+    padding-right: 20px;
+}
+.final-part{
+    text-align: center;
+}
+.final-img1{
+    width: 50px;
+    padding-right: 20px;
+}
+.final-img2{
+    width: 50px;
+    padding-right: 20px;
+}
+.final-img3{
+    width: 50px;
 }
