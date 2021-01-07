@@ -46,6 +46,7 @@ h3{
     float: left;
     padding-left:2%;
     border-radius: 5px;
+    background-color: white;
 }
 .image img{
     width: 100%;
@@ -66,7 +67,19 @@ h4{
 #song{
     padding-right: 5%;
 }
-.work{
-    width: 100%;
+.last{
+    background-image: url(Shapes/Group_33094_1.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    width:100%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
-
+.work-inquiry{
+    color:white;
+    font-size: 40px;
+    margin-left: 25%;
+}
+.section-4{
+    width:100%;
+}
