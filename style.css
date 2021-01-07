@@ -55,13 +55,13 @@ h4{
 }
 .section-3{
     background-color: rgb(177, 177, 177);
-    height: 650px;
+    height: 700px;
 }
 .section-4{
     background-image: url(Shapes/dream-bg.png);
     background-repeat: no-repeat;
     background-position:right;
-    box-shadow: 0px 0px 20px gray;
+    box-shadow: 0px 0px 20px 0px gray;
 }
 .image img{
     width: 100%;
@@ -71,7 +71,7 @@ h4{
     margin-right:2%;
     margin-left: 6%;
     float:left;
-    height:380px;
+    height:430px;
     background-color: white;
     padding-left: 2%;
     padding-top: 8px;
@@ -83,7 +83,7 @@ h4{
     margin-left:2%;
     margin-right:2%;
     float: left;
-    height: 380px;
+    height: 430px;
     padding-top: 8px;
     background-color: white;
     padding-left: 2%;
@@ -96,7 +96,7 @@ h4{
     margin-left: 2%;
     margin-right: 6%;
     float: left;
-    height: 380px;
+    height: 430px;
     background-color: white;
     padding-top: 8px;
     padding-left: 2%;
@@ -146,4 +146,24 @@ h4{
 }
 .final-img3{
     width: 50px;
+}
+.project-button{
+    text-align: center;
+    margin-left: 95px;
+    color:white;
+    font-size: 20px;
+    background-image: linear-gradient(45deg, grey, black);
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.project-button1{
+    text-align: center;
+    margin-left: 100px;
+    color:white;
+    font-size: 20px;
+    background-image: linear-gradient(45deg, grey, black);
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
 }
