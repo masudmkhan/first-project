@@ -37,7 +37,7 @@ h3{
 .latest-project{
     text-align: center;
 }
-.height{
+.section-2{
     height:900px;
 }
 .image{
@@ -54,9 +54,11 @@ h4{
     font-size: 30px;
 }
 .third{
-    background-color: dimgray;
+    background-color: none;
+    margin-top: 100px;
     padding-top: 20px;
     padding-bottom: 450px;
+    margin-bottom: 100px;
 }
 #gym{
     padding-left:5% ;
@@ -64,21 +66,5 @@ h4{
 #song{
     padding-right: 5%;
 }
-.wrk{
-    color:white;
-    background-image: url(work.png);
-    background-position: 25% 25%;
-    background-repeat: no-repeat;
-}
-.work{
-    width: 70%;
-    padding-left: 15%;
-    padding-right: 15%;
-    padding-top: 100px;
-    padding-bottom: 40px;
-}
-.work-inquiry{
-    position: absolute;
-    left: 10px;
-}
+
 
